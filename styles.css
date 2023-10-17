@@ -366,10 +366,6 @@ form .btn2 {
 
 /*Responsive Css*/
 @media only screen and (max-width: 925px) {
-
-  html, body{
-    height: -webkit-fill-available;
-  }
   
   .logo{
     margin-left: 0;
