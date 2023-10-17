@@ -365,7 +365,7 @@ form .btn2 {
 }
 
 /*Responsive Css*/
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 768px) {
   .logo{
     margin-left: 0;
     width: 50px;
