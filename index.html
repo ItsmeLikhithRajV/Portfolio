@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Likhith Raj V</title>
+    <link rel="icon" href="Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!--header-->
+    <div class="header" id="Home">
+      <div class="container">
+        <nav>
+          <img src="Logo.png" alt="Logo" class="logo" />
+          <ul id="menubar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">contact Me</a></li>
+            <i class="fa fa-times" onclick="closemenu()"></i>    
+          </ul>
+          <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!--Home Page-->
+        <div class="header-text">
+          <div class="rightsection">
+            <img
+              class="profile"
+              src="profile.jpg"
+              alt="profile"
+              class="profile"
+            />
+          </div>
+          <div class="text">
+            <p>I am</p>
+            <h1>Likhith Raj V</h1>
+            <h4>An Enthusiast in</h4>
+            <div>
+              <h2><span id="element"></span></h2>
+              <ul class="socials">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/likhithrajv"
+                    class="fa fa-linkedin-square"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/ItsmeLikhithRajV"
+                    class="fa fa-github"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--About Me-->
+    <!--About-->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <h1>About Me</h1>
+          <p>
+            CSE student | Aspiring Cybersecurity Enthusiast | Ethical Hacker in
+            Training 🕵️‍♂️ | Learning to Fortify the Digital Frontiers<br />
+
+            I'm unwaveringly committed to mastering cybersecurity and becoming
+            an elite ethical hacker. From the exciting journey of exploring
+            digital security to crafting stronger defenses, I'm driven by an
+            unyielding determination to protect the cyber world.<br />
+
+            My journey is a relentless fusion of curiosity, passion, and a
+            steadfast mission to make cyberspace safer. I'm just getting started
+            on this path, and I'm excited about the challenges that lie
+            ahead.<br />
+
+            Let's connect, innovate, and together, we shall shape a secure
+            digital future! 💻🛡️
+          </p>
+          <br>
+        <br>
+        </div>
+      </div>
+      <!--Educational Details-->
+      <div id="eduction">
+        <div class="container">
+            <h1 class="sub-title">Educational Details</h1>
+            <div class="school-list">
+              <div class="checkpoint"><div>
+                <h2>Florence High school (2009-2019)</h2>
+                <p><h5>SSLC - 94.08%</h5></p></div>
+                </div>
+              
+                <div class="checkpoint"><div>
+                <h2>Vidya Mandir Ind PU College (2019-2021)</h2>
+                <p><h5>PCMCs<br>PUC - 84.83%</h5></p></div>
+                </div>
+
+                <div class="checkpoint"><div>
+                <h2>Global Academy of Technology (2021-Present)</h2>
+                <p><h5>Computer Science and Engineering<br>CGPa - 9.33</h5></p></div>
+                  </div>
+              </div>
+        </div>
+      </div>
+      <div class="skills">
+        <h1>Skills</h1>
+        <li>
+          <h3>C</h3>
+          <span class="bar"><span class="C"></span></span>
+        </li>
+        <li>
+          <h3>Python</h3>
+          <span class="bar"><span class="Python"></span></span>
+        </li>
+        <li>
+          <h3>JAVA</h3>
+          <span class="bar"><span class="JAVA"></span></span>
+        </li>
+        <li>
+          <h3>HTML</h3>
+          <span class="bar"><span class="HTML"></span></span>
+        </li>
+        <li>
+          <h3>CSS</h3>
+          <span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+          <h3>JS</h3>
+          <span class="bar"><span class="js"></span></span>
+        </li>
+      </div>
+    </div>
+    <!--Contact me-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p class="mail"><i class="fa fa-paper-plane"></i> <a href="mailto:likhithsubbu@gmail.com">likhithsubbu@gmail.com</a></p>
+              <a href="LIKHITH RAJ V resume.pdf" download class="btn">Download CV</a>
+            </div>
+          
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email ID" required>
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <nav class="foot">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">contact Me</a></li>
+          </ul>
+        </nav>
+        <p>Copyright &copy;2023 Likhith Raj's Portfolio Website</p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Web Development.</i>", "<i>Cyber Security.</i>"],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
+    <script>
+      var menubar = document.getElementById("menubar");
+      function openmenu(){
+        menubar.style.right = "0";
+      }
+
+      function closemenu(){
+        menubar.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxuk87LPxYE0tGGXrK4bja3GN_ZbBtPHx8-EqtMfFL7Sj2hK8i1nI5fyyrXcgOldt6f/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {msg.innerHTML="Message Sent!!!"
+          setTimeout(function(){
+            msg.innerHTML=""
+          },5000)
+          form.reset()
+        })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
